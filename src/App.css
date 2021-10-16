@@ -79,9 +79,9 @@ color: #fff;
     background-image: url('./images/Vector\ 2.png');
     background-size: cover;
 }
-.banner2 img{
+/* .banner2 img{
     
-}
+} */
 
 .buttons{
     display: flex;
