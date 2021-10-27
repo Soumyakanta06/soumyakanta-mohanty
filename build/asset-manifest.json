@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9a8ba89b.chunk.css",
+    "main.js": "/static/js/main.574c463f.chunk.js",
+    "main.js.map": "/static/js/main.574c463f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2beb9be3.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2beb9be3.js.map",
+    "static/css/2.7fc9bc2b.chunk.css": "/static/css/2.7fc9bc2b.chunk.css",
+    "static/js/2.bc14062d.chunk.js": "/static/js/2.bc14062d.chunk.js",
+    "static/js/2.bc14062d.chunk.js.map": "/static/js/2.bc14062d.chunk.js.map",
+    "static/js/3.3608a215.chunk.js": "/static/js/3.3608a215.chunk.js",
+    "static/js/3.3608a215.chunk.js.map": "/static/js/3.3608a215.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.7fc9bc2b.chunk.css.map": "/static/css/2.7fc9bc2b.chunk.css.map",
+    "static/css/main.9a8ba89b.chunk.css.map": "/static/css/main.9a8ba89b.chunk.css.map",
+    "static/js/2.bc14062d.chunk.js.LICENSE.txt": "/static/js/2.bc14062d.chunk.js.LICENSE.txt",
+    "static/media/app.css": "/static/media/BabelSans-Bold.6d3f05fb.ttf",
+    "static/media/Logo23.c0bd12e6.png": "/static/media/Logo23.c0bd12e6.png",
+    "static/media/Profile2.f90c0f67.png": "/static/media/Profile2.f90c0f67.png",
+    "static/media/hk.41e0758d.png": "/static/media/hk.41e0758d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2beb9be3.js",
+    "static/css/2.7fc9bc2b.chunk.css",
+    "static/js/2.bc14062d.chunk.js",
+    "static/css/main.9a8ba89b.chunk.css",
+    "static/js/main.574c463f.chunk.js"
+  ]
+}
