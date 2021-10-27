@@ -78,6 +78,12 @@ color: #fff;
     padding-top: 70px;
     background-image: url('./images/Vector\ 2.png');
     background-size: cover;
+    display: flex;
+    flex-direction: row;
+}
+.socialmedia{
+    display: flex;
+    flex-direction: column;
 }
 /* .banner2 img{
     
@@ -135,10 +141,10 @@ font-weight: 700;
     text-transform: uppercase;
     color: var(--orange-color);
     /* font-size: 2.2rem; */
-    letter-spacing: 10px;
+    letter-spacing: 5px;
     text-align: left;
     font-size: 3rem;
-    font-weight: 400;
+    font-weight: 600;
     margin: 25px 0;
 }
 .about2 p{
@@ -191,11 +197,11 @@ border-radius: 8px;
     margin: 30px 0;
 }
 .skillsmain h2{
-    color: #fff;
-    letter-spacing: 10px;
+    /* color: #fff; */
+    letter-spacing: 6px;
     text-align: center;
     font-size: 3rem;
-    font-weight: 400;
+    font-weight: 600;
     margin: 25px 0;
 }
 .skills-content h2{
@@ -211,6 +217,7 @@ border-radius: 8px;
     height: 5px;
     margin: 10px 10px;
     border-radius: 5px;
+    overflow: hidden;
 }
 .skills-about{
     padding: 0 1% 0 4%;
@@ -220,9 +227,80 @@ border-radius: 8px;
     color: var(--orange-color);
 }
 .skills-about p{
-    color: #6d6a6a;
-    font-size: 1.2rem;
+    color: #6d6969;
+    font-size: 1.3rem;
     /* font-family: 'BabelSans'; */
     font-family: 'Lora', serif;
     letter-spacing: 1px;
+}
+
+/*=============================== Education======================================= */
+.education{
+    /* margin: 55px 15px; */
+    margin: 40px 0 10px 0;
+}
+.content-part{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mm{
+    background-color: rgba(128, 128, 128, 0.292);
+    color: white;
+    width: 320px;
+    border-radius: 7px;
+    margin: 25px 0;
+    padding: 10px;
+    font-size: 1.5rem;
+    
+}
+.mm p{
+    font-family: 'Lora', serif;
+font-size: 1.3rem;
+letter-spacing: 1px;
+color: #fff;
+text-align: center;
+position: relative;
+top: -10px;
+
+}
+.mm h2{
+    position: relative;
+    top: -27%;
+    color: var(--orange-color);
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 0.8px;
+    /* font-size: 2.2rem; */
+}
+.mm1 p{
+    font-size: 1.4rem !important;
+}
+.mm2{
+    position: relative;
+    left: -10%;
+}
+.mm3 h2{
+    position: relative;
+    top: -22% !important;
+}
+.animatn-part h2{
+    letter-spacing: 6px;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+    margin: 25px 0;
+    text-align: left;
+    color: var(--orange-color);
+    z-index: 1000;
+}
+.animatn-part{
+    /* padding: 0 10px; */
+}
+.lottie{
+    position: relative;
+    top: -15%;
+    left: -10%;
+    z-index: -1;
 }

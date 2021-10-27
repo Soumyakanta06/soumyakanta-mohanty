@@ -5,6 +5,7 @@ import Banner from './components/Banner';
 import About from './components/About';
 import Skills from './components/Skills';
 import Skillscontent from './components/Skillscontent';
+import Education from './components/Education'
 function App() {
   return (
     <div className="App">
@@ -13,6 +14,7 @@ function App() {
       <About/>
       {/* <Skills/> */}
       <Skillscontent/>
+      <Education/>
     </div>
   );
 }

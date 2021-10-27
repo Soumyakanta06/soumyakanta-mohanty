@@ -40,6 +40,9 @@ function Banner() {
 {/* <img className="img-fluid pfimg2" src={Vector2} alt="" /> */}
 
 <img className="img-fluid pfimg" src={Profile} alt="" />
+<div className="socialmedia">
+<i class="fas fa fa-facebook-f"></i>
+</div>
                     </div>
                 </div>
             </div>
