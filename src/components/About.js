@@ -4,13 +4,13 @@ import Counter from './Counter'
 
 function About() {
     return (
-        <div>
+        <div id="About">
             <div className="container aboutmain">
-                <div className="row about">
-                    <div className="col-lg-5 col-md-12 about1">
+                <div className="row about" >
+                    <div className="col-lg-5 col-md-12 about1 order-lg-1 order-md-2 order-sm-2 order-2">
                         <img className="img-fluid myImage" src={myImage} alt="" />
                     </div>
-                    <div className="col-lg-7 col-md-12 about2">
+                    <div className="col-lg-7 col-md-12 about2 order-lg-2 order-md-1 order-sm-1 order-1">
                         <h1>About Me</h1>
                         <p><span class="quote">"I want to be a Football behind whom everyone chases..."</span> &nbsp;<br/>
                         Hello!! <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px"/>  I am Soumyakanta Mohanty from Odisha recently pursuing my Bachelor of Technology in the field of Electronics & Instrumentation in College of Engineering and Technology, Bhubaneswar.
@@ -20,7 +20,7 @@ function About() {
 <Counter number="5+" title="Projects" description="Completed"/>
 <Counter number="2" title="Personal" description="Projects"/>
 <Counter number="2+" title="Years
-" description="experienced"/>
+" description="experience"/>
 
                              </div>
                     </div>

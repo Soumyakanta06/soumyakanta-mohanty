@@ -18,7 +18,7 @@ import { SiArduino } from 'react-icons/si';
 function Skillscontent() {
     return (
         <>
-        <div className="container-fluid">
+        <div className="container-fluid" id="Skills">
              <div className="row skillsmain">
                  <div className="col-lg-5 col-12 skills-about"><h2>SKILLS</h2>
              <p>Since the beginnning of my journey as a frontend developer I am really fond of 

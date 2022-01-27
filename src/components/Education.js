@@ -14,10 +14,10 @@ renderer: 'svg',
     }, [])
     return (
         <>
-        <div className="container-fluid">
-            <div className="row education">
+        <div className="container-fluid" id="education">
+            <div className="row education" >
                 
-                <div className="col-lg-6 content-part">
+                <div className="col-lg-6 content-part order-2 order-md-1">
                     <div className="mm mm1">
                         <h2>Matriculation</h2>
                         <p>Carmel School
@@ -37,7 +37,7 @@ renderer: 'svg',
                         </p>
                     </div>
                 </div>
-                <div className="col-lg-6 animatn-part">
+                <div className="col-lg-6 animatn-part order-1 order-md-2">
                 <h2>EDUCATION</h2>
 
                     <div className="lottie" ref={container}></div>
