@@ -843,6 +843,73 @@ transition: opacity 0.25s;
 }
 
 
+/*================================ Contact =================================================*/
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+#Contact{
+  padding: 40px 0;
+}
+.contact h2{
+   color: #ff4c05fb;
+   text-align: left;
+   font-family: 'Shadows Into Light', cursive;
+   font-weight: 700;
+   letter-spacing: 2px;
+   font-size: 2.6rem;
+   margin-bottom: 20px;
+   
+}
+.contact-form   label{
+color: orange;
+}
+.contact-form input{
+  background-color: rgba(128, 128, 128, 0.342);
+  /* opacity:0.1; */
+  width: 400px;
+  border-radius: 8px;
+  border: none;
+  margin: 10px 0;
+  height: 50px;
+  padding-left: 20px;
+} 
+.contact-form input:nth-child(1),
+.contact-form input:nth-child(2),
+.contact-form input:nth-child(6),
+.contact-form input:nth-child(7)
+{
+  width: 194px;
+  margin-right: 10px;
+}
+
+.contact-form input:nth-child(9){
+  height: 100px;
+}
+::placeholder{
+  color: rgba(255, 255, 255, 0.521);
+  
+  opacity: 1;
+  margin-left: 20px;
+  font-weight: 500;
+}
+.cntct{
+  margin-top: 20px;
+}
+.bye-animatn{
+  margin-top: 20px;
+}
+.bye-animatn2{
+  padding-top: 40px;
+}
+#wave{
+  position: relative;
+  bottom : -50px;
+}
+.Element{
+  background-image: url(./images/wave.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
 
 
 

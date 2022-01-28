@@ -7,6 +7,7 @@ import About from './components/About';
 import Skillscontent from './components/Skillscontent';
 import Education from './components/Education';
 import Projects from './components/Projects';
+import Contact from './components/Contact';
 import { Link } from "react-router-dom";
 import { Route,Routes } from "react-router-dom";
 
@@ -37,6 +38,7 @@ function App() {
        <Skillscontent/>
        <Education/>
        <Projects/>
+       <Contact/>
     </div>
   );
 }

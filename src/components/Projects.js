@@ -3,6 +3,7 @@ import Learn2Infy from '../images/Learn2Infy.png'
 import Spectrum from '../images/SPECTRUM.png'
 import WordScout from '../images/Word-Scout.png'
 import Tubik from '../images/tubik-1.png'
+import Casenova from '../images/Casenova-Designs-1.png'
 
 export default function Projects() {
     return (
@@ -49,6 +50,15 @@ export default function Projects() {
                     <div className="img-title1">
                             {/* <p>here we hv brick wall</p> */}
                             <a href="https://git-code-orcin.vercel.app/"><button>View Website</button>  </a>
+
+                        </div>
+
+                    </div>
+                    <div className="col-md-4 ov_1 pb-5">
+                    <img src={Casenova} alt="" height="300px"/>
+                    <div className="img-title1">
+                            {/* <p>here we hv brick wall</p> */}
+                            <a href="https://himanshu12145.github.io/Coders-Explorer/"><button>View Website</button>  </a>
 
                         </div>
 
